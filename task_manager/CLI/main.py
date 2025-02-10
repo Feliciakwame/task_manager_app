@@ -9,10 +9,10 @@ from model import category
 from model import user
 from model import task
 
-from task_manager.model.database import engine,Session,Base
-from model.task import Task
-from model.user import User
-from model.category import Category
+from ..model.database import engine,Session,Base
+from ..model.task import Task
+from ..model.user import User
+from ..model.category import Category
 
 def create_tables():
     Base.metadata.create_all(engine)

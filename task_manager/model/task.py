@@ -1,4 +1,4 @@
-from sqlalchemy import Column,Integer ,String , Foreignkey
+from sqlalchemy import Column,Integer ,String , ForeignKey
 from sqlalchemy.orm import relationship
 from task_manager.model.database import Base
 
