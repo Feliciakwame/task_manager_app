@@ -1,6 +1,6 @@
 from sqlalchemy import Column,Integer ,String , Foreignkey
 from sqlalchemy.orm import relationship
-from database import Base
+from task_manager.model.database import Base
 
 class Task(Base):
     __tablename__ ='tasks'
