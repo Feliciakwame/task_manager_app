@@ -31,3 +31,7 @@ The task manager CLI is a command-line application that allows users to efficien
 ## Contributors
 
 - Felicia Kwame
+
+## Repository link
+
+- https://github.com/Feliciakwame/task_manager_app.git
